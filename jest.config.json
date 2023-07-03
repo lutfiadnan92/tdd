@@ -1,0 +1,7 @@
+{
+  "coverageThreshold": {
+    "global": {
+      "lines": 80
+    }
+  }
+}
