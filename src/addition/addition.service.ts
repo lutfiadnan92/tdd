@@ -1,6 +1,9 @@
+const add = (valueA: number, valueB: number): number => {
+  return valueA + valueB
+}
+
 const additionService = (valueA: number, valueB: number): number => {
-  const result = valueA + valueB
-  return result
+  return add(valueA, valueB)
 }
 
 export { additionService }
