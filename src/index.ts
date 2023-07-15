@@ -1,3 +1,3 @@
-import { additionService } from "./addition/addition.service.ts"
+import { additionService } from "./addition/addition.service"
 
 console.log(additionService(1, 2))

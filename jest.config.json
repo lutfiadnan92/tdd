@@ -1,0 +1,11 @@
+{
+  "transform": {
+    "^.+\\.[t|j]sx?$": "babel-jest"
+  },
+  "preset": "ts-jest",
+  "coverageThreshold": {
+    "global": {
+      "functions": 80
+    }
+  }
+}
